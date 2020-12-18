@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Mi Portafolio</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
+  </head>
+  
+  <body>
+    <header>
+      <img src="/assets/img/ariel.jpg"  alt="Es una fotografía de Ariel" class="header-img"/>
+      <h1 class="header">Ariel Merino</h1>
+      <h2>Developer</h2>
+      <nav >
+        <ul class="navigation">
+          <li class="nav-item"> <a href="#aboutMe">Sobre mí</a> </li>
+          <li class="nav-item"> <a href="#proyects">Mis proyectos</a></li>
+          <li class="nav-item"><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main class="">
+
+      <section>
+        <h2 class="header">Acerca de mí</h2 >
+
+        <p class="intro">
+          Hola! Soy Ariel 👋 Soy mexicano, amo los perros y tambien crear
+          cosas lindas para la web 😍 Aqui puedes ver algunos de mis proyectos
+          recientes y tambien puedes contactarme por si quieres hablar de tecnologia,
+          acessibilidad o gatos!
+        </p>
+
+
+      <ul class="social-media">
+        <li>
+          <a href="https://twitter.com/arielmerinos" target="_blank"><img src="assets/icon/twitter.png" alt="Twitter"></a>
+        </li>
+        <li>
+          <a href="https://github.com/arielmerin" target="_blank"><img src="assets/icon/github-logo.png" alt="Github"></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/arielmerino/" target="_blank"
+            ><img src="assets/icon/linkedin.png" alt="Linkedin"></a
+          >
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="header">Mis proyectos</h2 >
+      <div class="carousel">
+        <div class="arrow arrow-left" aria-label="backward button"></div>
+
+        <div class="window">
+          <ul class="project-container">
+            <li> <button><img src="assets/img/arielmerin.png" alt="Proyecto web primera landing page" class="project project1"></button></li>
+            <li> <button><img src="assets/img/arielmerin.png" alt="Segundo proyecto, cloud coverage" class="project project2"></button></li>
+            <li> <button><img src="assets/img/arielmerin.png" alt="Tercer proyecto, Api weather" class="project project3"></button></li>
+            <li> <button><img src="assets/img/arielmerin.png" alt="Proyecto web primera landing page" class="project project4"></button></li>
+            <li> <button><img src="assets/img/arielmerin.png" alt="Proyecto web primera landing page" class="project project5"></button></li>
+          </div>
+        <ul>
+
+        <div class="arrow arrow-right" aria-label="forward-button"></div>
+      </div>
+  </section>
+
+  </main>
+  <footer class="contact-section">
+    <div class="header">Contacto</div>
+    <form class="form-container">
+      Nombre<input type="text" aria-label="nombre"/> <br />
+      Correo<input type="text" aria-label="Correo" /> <br />
+      <div class="message-input">  Mensaje<input type="text" aria-label="Escribe el mensaje" /> <br /> </div>
+      <button class="send-button" >Enviar</button>
+    </form>
+
+    <div class="notification">El formulario fue enviado sin errores</div>
+    <div class="modal-container">
+      <div class="modal">
+        Ejemplo de un proyecto mío
+        <div class="modal-project-image"></div>
+      </div>
+    </div>
+  </footer>
+
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>
